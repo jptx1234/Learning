@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source>
+	<province name="黑龙江" value="hlj">
+		<city>哈尔滨</city>
+		<city>大庆</city>
+		<city>鸡西</city>
+	</province>	
+	<province name="吉林" value="jl">
+		<city>长春</city>
+		<city>吉林</city>
+		<city>四平</city>
+	</province>	
+	<province name="辽宁" value="ln">
+		<city>沈阳</city>
+		<city>大连</city>
+		<city>鞍山</city>
+	</province>
+</source>

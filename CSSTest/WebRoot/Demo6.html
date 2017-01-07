@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function moveOne(direction){
+		var from,to;
+		switch (direction){
+		case "left":
+			from=document.getElementById("right");
+			to=document.getElementById("left");
+			break;
+		case "right":
+			from=document.getElementById("left");
+			to=document.getElementById("right");
+			break;
+			
+		}
+		var fromOptions=from.options;
+		for (var i=0;i<fromOptions.length;i++){
+			if (fromOptions[i].selected){
+				to.add(fromOptions[i]);
+				i--;
+			}
+		}
+		
+		reSize();
+	}
+	
+	function moveAll(direction){
+		var from,to;
+		switch (direction){
+		case "left":
+			from=document.getElementById("right");
+			to=document.getElementById("left");
+			break;
+		case "right":
+			from=document.getElementById("left");
+			to=document.getElementById("right");
+			break;
+			
+		}
+		while (from.options.length != 0){
+			to.add(from.options[0]);
+		}
+		
+		reSize();
+	}
+	
+	function reSize(){
+		var left=document.getElementById("left");
+		var right=document.getElementById("right");
+		var newSize=Math.max(left.options.length,right.options.length);
+		left.size=newSize;
+		right.size=newSize;
+		
+	}
+</script>
+</head>
+<body>
+	<table align="center">
+		<tr>
+			<td>
+				<select id="left" multiple="multiple">
+					<option>s1</option>
+					<option>s2</option>
+					<option>s3</option>
+					<option>s4</option>
+				</select>
+			</td>
+			<td align="center">
+				<input type="button" value=">" onclick="moveOne('right');"><br>
+				<input type="button" value=">>" onclick="moveAll('right')"><br>
+				<input type="button" value="<" onclick="moveOne('left')"><br>
+				<input type="button" value="<<" onclick="moveAll('left')">
+			</td>
+			<td>
+				<select id="right" multiple="multiple">
+					<option>s5</option>
+				</select>
+			</td>
+		<tr>
+	
+	</table>
+</body>
+</html>

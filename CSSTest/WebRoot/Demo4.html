@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function add(){
+		var name=document.getElementById("name");
+		var age=document.getElementById("age");
+		var tb=document.getElementById("record");
+		var row=tb.insertRow();
+		var nameCell=row.insertCell();
+		nameCell.innerHTML=name.value;
+		row.insertCell().innerHTML=age.value;
+		name.value="";
+		age.value="";
+		
+	}
+</script>
+</head>
+<body>
+	<div align="center">
+		姓名<input type="text" id="name">年龄<input type="text" id="age"><br>
+		<input type="button" value="记录" onClick="add();">
+	</div>
+	<hr>
+	<div>
+		<table id="record">
+			<th>姓名</th>
+			<th>年龄</th>
+			
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<products> 
+  <product uuid="9839c638-750b-4c1d-ab52-0bddef9e3ef1"> 
+    <name>dGhpbmsgaW4gamF2YQ==</name>  
+    <price>12.9</price>  
+    <num>33</num>  
+    <description>6L+Z5piv5LiA5pys5pyJ5YWz5rKqSmF2YeeahOS5puOAguOAguOAgg==</description> 
+  </product>  
+  <product uuid="8e44e121-d844-4b08-bfda-9ae785c38dae"> 
+    <name>dGhpbmsgaW4gSmF2YQ==</name>  
+    <price>12.9</price>  
+    <num>23</num>  
+    <description>6L+Z5piv5LiA5pysSmF2YeeahOS5puOAguOAguOAguOAguOAgg==</description> 
+  </product>  
+  <product uuid="e5b25c60-2794-4734-8e5a-c2920017e911"> 
+    <name>PC9wcm9kdWN0Pg==</name>  
+    <price>12.9</price>  
+    <num>23</num>  
+    <description>Ii0tXV0i</description> 
+  </product>  
+  <product uuid="19127ef2-93c9-4098-a966-0365eb2a6965"> 
+    <name>PC9wcm9kdWN0cz4=</name>  
+    <price>12.8</price>  
+    <num>11</num>  
+    <description>PD94bWw/Pg==</description> 
+  </product>  
+  <product uuid="1f746907-7766-4129-a087-765b56b6be12"> 
+    <name>UVFR</name>  
+    <price>12.777</price>  
+    <num>11</num>  
+    <description>XV0=</description> 
+  </product>  
+  <product uuid="d0b01a2c-6e12-4390-9f0f-534315edf3a7">
+    <name>cGlu</name>
+    <price>12.88</price>
+    <num>99</num>
+    <description>bmVmbmVmZW5mZXduZmVmZXdmZXdm</description>
+  </product>
+</products>
